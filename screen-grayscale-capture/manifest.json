@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Screen Grayscale Capture",
+    "version": "1.0",
+    "description": "Capture screen, convert to grayscale, and download",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "screen-capture-16.png",
+        "48": "screen-capture-48.png",
+        "128": "screen-capture-128.png"
+      }
+    }
+  }
+  

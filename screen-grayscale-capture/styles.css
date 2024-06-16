@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px; /* Add margin to separate canvas */
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 2px; /* Adjust margin for buttons */
+  cursor: pointer;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#screenshot-canvas {
+  margin-top: 10px;
+  display: none;
+  border: 1px solid #ccc;
+  max-width: 100%;
+}
+
+#download-button {
+  display: none;
+}
